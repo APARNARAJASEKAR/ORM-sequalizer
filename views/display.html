@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/clinical.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="./js/clinical.js"></script>
+    {% set user_data = data.user_data %} {% set rolesIds = data.rolesIds %} |aparna
+</head>
+
+<body>
+
+    <form id="register_form">
+        <div class="container">
+            <h1 align="center">REGISTERED CLINICIANS</h1>
+            <hr>
+            <table id="table1">
+                <tr>
+                    <th>User_Id</th>
+                    <th>Username</th>
+                    <th>email</th>
+                    <th>Experience</th>
+                    <th>Roleid</th>
+                    <th>Roles</th>
+
+                </tr>
+            </table>
+
+
+
+        </div>
+    </form>
+</body>
+
+</html>

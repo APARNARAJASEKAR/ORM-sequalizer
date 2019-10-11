@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: green;
+}
+
+table {
+    color: black;
+}
+
+@use postcss-nested;
+@use postcss-cssnext;
+#table-wrapper {
+    display: flex;
+}
+
+#desc {
+    width: 15em;
+    border-collapse: collapse;
+    &th {
+        background-color: whitesmoke;
+        padding: 1em;
+        text-align: left;
+        border: 1px solid black;
+        padding: 1em;
+    }
+    & td {
+        border: 1px solid black;
+        padding: 1em;
+    }
+}
+
+body {
+    background-color: pink;
+    ;
+}
+
+table,
+th,
+td {
+    border: 3px SOLID black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+}

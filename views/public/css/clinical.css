@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: BLACK;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 387px;
+    background-color: white;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 45%;
+    padding: 15px;
+    margin: 22px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.container {
+    background-color: pink;
+}
+
+.registerbtn,
+.displaybtn {
+    background-color: #4CAF50;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    height: 30%;
+    opacity: 0.9;
+    padding: 16px;
+}
+
+.role {
+    width: 50% !important;
+    padding: 15px !important;
+    margin: 22px 0 22px 0 !important;
+    display: inline-block !important;
+    border: none !important;
+    margin-left: 200px !important;
+}
+
+.mybutton {
+    background-color: #4CAF50;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    height: 30%;
+    opacity: 0.9;
+    padding: 15px;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+.roles1 {
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.mybutton1 {
+    background-color: red;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 13%;
+    height: 30%;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.h1 {
+    color: red !important;
+}

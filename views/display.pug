@@ -1,0 +1,25 @@
+
+html
+head
+title DISPLAY ALL VALUES
+link(rel='stylesheet', type='text/css', href='/css/table.css')
+body
+div 
+h1 DISPLAYING CLINICIANS DATA #{siteName}
+
+#table-wrapper
+  table#desc
+    tr
+      th USERID
+      th USERNAME
+      th EMAIL
+      th EXPERIENCE
+      th ROLE
+    tr
+      
+      td  #{userdata.id}
+      td #{userdata.name}
+      td #{userdata.email}
+      td #{userdata.experience}
+      each role in userdata.User
+        td #{role.role}

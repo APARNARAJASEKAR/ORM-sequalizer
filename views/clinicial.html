@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/clinical.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="./js/clinical.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <form id="register_form">
+        <div class="container">
+            <h1 align="center">REGISTRATION FORM FOR CLINICIAN</h1>
+
+            <hr>
+            <div class="roles1">
+
+                <label for="name"><b>CLINICIAN NAME</b></label>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Enter clinician name" name="name" id="name">
+                <br>
+                <label for="address"><b>CLINICIAN EMAIL ADDRESS</b></label>:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Enter email address" name="address" id="address">
+                <br>
+                <label for="years"><b>NO OF YEARS EXPERIENCE</b></label>:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="no of years experience" name="experience" id="experience">
+                <br><label for="roles"><b>SPECIALIZED ROLES</b></label>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="input-roles">
+                    <input type="text" name="roles" id="1">
+                </div>
+
+                <button class="mybutton" type="button" id="add"> +</button>
+
+            </div>
+
+
+            <hr>
+            <button type="submit" class="registerbtn" id="register">Register</button>
+            <button type="submit" class="displaybtn" id="display">DISPLAY</button>
+            <button type="submit" class="displaybtn" id="update">UPDATE</button>
+            <button type="submit" class="displaybtn" id="update">HOMEPAGE</button>
+
+
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
